@@ -1,0 +1,4 @@
+configured_endpoints: 1
+openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/steamship-max%2Fsteamship-max-test-4dc873c1c59fc907b21f6d474e6ad0e186c762109c4b6ba69bdba41d12982558.yml
+openapi_spec_hash: 1f50e442ffcd3d4b3ef29a330f278213
+config_hash: aa15ba093bff45cad6d30bd12c4e6572
