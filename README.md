@@ -11,7 +11,7 @@ It is generated with [Stainless](https://www.stainless.com/).
 ## Installation
 
 ```sh
-npm install git+ssh://git@github.com:stainless-sdks/steamship-max-test-typescript.git
+npm install git+ssh://git@github.com:maxwfreu/api-test.git
 ```
 
 > [!NOTE]
@@ -346,7 +346,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/steamship-max-test-typescript/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/maxwfreu/api-test/issues) with questions, bugs, or suggestions.
 
 ## Requirements
 
