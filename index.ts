@@ -34,3 +34,8 @@ const swaggerSpec = swaggerJsdoc({
 });
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
+app.get('/openapi.json', (_req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  res.send(swaggerSpec);
+});
