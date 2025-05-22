@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.1.0-alpha.2 (2025-05-22)
+
+Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/maxwfreu/api-test/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
+
+### Features
+
+* **client:** add withOptions helper ([a44caea](https://github.com/maxwfreu/api-test/commit/a44caea5c712795e83301ba2d6bc9dfe69dcaeba))
+
+
+### Bug Fixes
+
+* **client:** always overwrite when merging headers ([2ad598f](https://github.com/maxwfreu/api-test/commit/2ad598f5d36111a187683890dbc25f5f210f7eef))
+
+
+### Chores
+
+* **client:** drop support for EOL node versions ([564e203](https://github.com/maxwfreu/api-test/commit/564e20384bb4628dc786744927a8fd66477f0f26))
+* **docs:** grammar improvements ([088d1c1](https://github.com/maxwfreu/api-test/commit/088d1c144e0e4b2227e887d8d81e5b0869a7b6ad))
+* **internal:** codegen related update ([f087cb0](https://github.com/maxwfreu/api-test/commit/f087cb005bc369b9ef09384ee7c5e93beb49cc36))
+* **internal:** refactor utils ([7ef255e](https://github.com/maxwfreu/api-test/commit/7ef255ee37e06e7e96a4f3f943a0ac215872efb6))
+* **internal:** share typescript helpers ([e1556df](https://github.com/maxwfreu/api-test/commit/e1556df778e27c25af961db46d4653d6fd716aa3))
+* **package:** remove engines ([df1307f](https://github.com/maxwfreu/api-test/commit/df1307f8cbd507e617bf18fcebd00899fb229c59))
+
+
+### Documentation
+
+* **readme:** fix typo ([9306ca9](https://github.com/maxwfreu/api-test/commit/9306ca9bae75a76bd9412110781b5fe34bbfe90f))
+
 ## 0.1.0-alpha.1 (2025-04-24)
 
 Full Changelog: [v0.0.1-alpha.0...v0.1.0-alpha.1](https://github.com/maxwfreu/api-test/compare/v0.0.1-alpha.0...v0.1.0-alpha.1)
