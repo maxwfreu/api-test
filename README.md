@@ -26,11 +26,7 @@ const client = new SteamshipMaxTest({
   apiKey: process.env['STEAMSHIP_MAX_TEST_API_KEY'], // This is the default and can be omitted
 });
 
-async function main() {
-  await client.wassup.sayWassup();
-}
-
-main();
+await client.wassup.sayWassup();
 ```
 
 ### Request & Response types
@@ -45,11 +41,7 @@ const client = new SteamshipMaxTest({
   apiKey: process.env['STEAMSHIP_MAX_TEST_API_KEY'], // This is the default and can be omitted
 });
 
-async function main() {
-  await client.wassup.sayWassup();
-}
-
-main();
+await client.wassup.sayWassup();
 ```
 
 Documentation for each method, request param, and response field are available in docstrings and will appear on hover in most modern editors.
@@ -62,22 +54,18 @@ a subclass of `APIError` will be thrown:
 
 <!-- prettier-ignore -->
 ```ts
-async function main() {
-  const response = await client.wassup.sayWassup().catch(async (err) => {
-    if (err instanceof SteamshipMaxTest.APIError) {
-      console.log(err.status); // 400
-      console.log(err.name); // BadRequestError
-      console.log(err.headers); // {server: 'nginx', ...}
-    } else {
-      throw err;
-    }
-  });
-}
-
-main();
+const response = await client.wassup.sayWassup().catch(async (err) => {
+  if (err instanceof SteamshipMaxTest.APIError) {
+    console.log(err.status); // 400
+    console.log(err.name); // BadRequestError
+    console.log(err.headers); // {server: 'nginx', ...}
+  } else {
+    throw err;
+  }
+});
 ```
 
-Error codes are as followed:
+Error codes are as follows:
 
 | Status Code | Error Type                 |
 | ----------- | -------------------------- |
@@ -352,7 +340,7 @@ TypeScript >= 4.9 is supported.
 The following runtimes are supported:
 
 - Web browsers (Up-to-date Chrome, Firefox, Safari, Edge, and more)
-- Node.js 18 LTS or later ([non-EOL](https://endoflife.date/nodejs)) versions.
+- Node.js 20 LTS or later ([non-EOL](https://endoflife.date/nodejs)) versions.
 - Deno v1.28.0 or higher.
 - Bun 1.0 or later.
 - Cloudflare Workers.
