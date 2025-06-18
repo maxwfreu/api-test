@@ -1,6 +1,6 @@
 # Steamship Max Test TypeScript API Library
 
-[![NPM version](https://img.shields.io/npm/v/steamship-max-test.svg)](https://npmjs.org/package/steamship-max-test) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/steamship-max-test)
+[![NPM version](<https://img.shields.io/npm/v/steamship-max-test.svg?label=npm%20(stable)>)](https://npmjs.org/package/steamship-max-test) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/steamship-max-test)
 
 This library provides convenient access to the Steamship Max Test REST API from server-side TypeScript or JavaScript.
 
