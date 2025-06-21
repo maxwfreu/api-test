@@ -2,7 +2,7 @@
 
 import type { SteamshipMaxTest } from '../client';
 
-export class APIResource {
+export abstract class APIResource {
   protected _client: SteamshipMaxTest;
 
   constructor(client: SteamshipMaxTest) {
